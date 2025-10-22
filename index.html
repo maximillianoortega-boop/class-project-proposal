@@ -1,9 +1,124 @@
 <!DOCTYPE html>
-<html>
-<Title>
-  <title>Class Project Proposal</title>
-</Title>
+<html lang="en">
 <head>
-  hi
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Proposal - Project Aurora</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.5;
+    }
+    h1, h2 {
+      color: #0056b3;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    section {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    ul, ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
+<body>
+  <header>
+    <h1>Project Aurora</h1>
+    <p>Class project proposal</p>
+  </header>
+
+  <section>
+    <h2>Team Members</h2>
+    <ul>
+      <li>Maximilliano Ortega</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Application Overview</h2>
+    <p>
+    A fun game for the final project of the class
+    </p>
+  </section>
+
+  <section>
+    <h2>Technology Overview</h2>
+    <ul>
+      <li><b>Languages:</b> HTML, CSS, JavaScript</li>
+      <li><b>Hosting:</b> GitHub Pages / Render.com</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proposal Last Updated</h2>
+    <p id="lastUpdated"></p>
+  </section>
+
+  <section>
+    <h2>Feature List (Prioritized)</h2>
+    <ol>
+      <li>Fun and smooth gameplay</li>
+      <li>possibly an ai opponent</li>
+      <li>easy on the computer</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Future Feature List</h2>
+    <ul>
+      <li>better looking UI</li>
+      <li>AI opponent difficulty</li>
+      <li>a prettier looking game</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Basic Technical Features</h2>
+    <ul>
+      <li>Responsive layout with HTML/CSS</li>
+      <li>Interactive JavaScript functions</li>
+      <li>Form input and validation</li>
+      <li>LocalStorage data saving</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Advanced Technical Features</h2>
+    <ul>
+      <li>Single Page App (React)</li>
+      <li>Real-time database (Firebase)</li>
+      <li>PWA support (Offline access)</li>
+      <li>Secure authentication</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Project Aurora
+  </footer>
+
+  <script>
+    // Display current date automatically
+    const today = new Date();
+    document.getElementById('lastUpdated').textContent =
+      today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  </script>
+</body>
 </html>
+
